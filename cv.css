@@ -1,0 +1,15 @@
+.titleHeading {
+    text-align: left;
+    font-family: "Lato", Arial, Helvetica, sans-serif !important;
+}
+
+.titleHeading .title {
+    color: black;
+    font-size: 42px;
+    font-weight: 600;
+}
+
+.titleHeading .subTitle {
+    color: #008CFF !important;
+    font-size: 20px;
+}
