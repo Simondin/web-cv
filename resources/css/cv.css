@@ -1,15 +1,49 @@
-.titleHeading {
+body {
+    background: rgb(204, 204, 204);
+}
+
+page {
+    background: url("../images/default_background.jpg");
+    background-size: contain;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0.5cm;
+    box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+page[size="A4"] {
+    width: 21cm;
+    height: 29.7cm;
+}
+
+page #svg {
+    background: url("../images/default_background.svg"), no-repeat top left;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+page #svg .resume-wrapper {
+    position: relative;
+    padding: 30px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.resume-header {
     text-align: left;
     font-family: "Lato", Arial, Helvetica, sans-serif !important;
 }
 
-.titleHeading .title {
+.resume-header .title {
     color: black;
     font-size: 42px;
-    font-weight: 600;
+    font-weight: 700 !important;
 }
 
-.titleHeading .subTitle {
+.resume-header .sub-title {
     color: #008CFF !important;
     font-size: 20px;
 }
