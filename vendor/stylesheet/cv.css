@@ -35,15 +35,51 @@ page #svg .resume-wrapper {
 .resume-header {
     text-align: left;
     font-family: "Lato", Arial, Helvetica, sans-serif !important;
+    width: 75%;
+    min-height: 150px;
+    padding-right: 15px;
 }
 
 .resume-header .title {
     color: black;
     font-size: 42px;
-    font-weight: 700 !important;
+    font-weight: bold !important;
 }
 
 .resume-header .sub-title {
-    color: #008CFF !important;
     font-size: 20px;
+}
+
+.resume-contact {
+    padding-bottom: 4px;
+    clear: both;
+    padding-top: 20px;
+    color: #333;
+    font-size: 12px;
+    font-weight: 700;
+    display: block;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+.resume-contact-entry {
+    line-height: 12px;
+    display: inline-block;
+    vertical-align: top;
+    width: 49%;
+}
+
+.resume-contact-entry .value {
+    line-height: 16px;
+}
+
+.main-color {
+    color: #008CFF !important;
+}
+
+.icon {
+    position: relative;
+    margin-right: 5px;
+    vertical-align: top;
+    float: left;
+    top: 2px;
 }
