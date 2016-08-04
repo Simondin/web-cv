@@ -1,3 +1,5 @@
+/*General settings*/
+
 body {
     background: rgb(204, 204, 204);
 }
@@ -32,46 +34,6 @@ page #svg .resume-wrapper {
     box-sizing: border-box;
 }
 
-.resume-header {
-    text-align: left;
-    font-family: "Lato", Arial, Helvetica, sans-serif !important;
-    width: 75%;
-    min-height: 150px;
-    padding-right: 15px;
-}
-
-.resume-header .title {
-    color: black;
-    font-size: 42px;
-    font-weight: bold !important;
-}
-
-.resume-header .sub-title {
-    font-size: 20px;
-}
-
-.resume-contact {
-    padding-bottom: 4px;
-    clear: both;
-    padding-top: 20px;
-    color: #333;
-    font-size: 12px;
-    font-weight: 700;
-    display: block;
-    font-family: "Open Sans", Arial, Helvetica, sans-serif;
-}
-
-.resume-contact-entry {
-    line-height: 12px;
-    display: inline-block;
-    vertical-align: top;
-    width: 49%;
-}
-
-.resume-contact-entry .value {
-    line-height: 16px;
-}
-
 .main-color {
     color: #008CFF !important;
 }
@@ -82,4 +44,147 @@ page #svg .resume-wrapper {
     vertical-align: top;
     float: left;
     top: 2px;
+    font-weight: 400!important;
+}
+
+.item {
+    border-bottom: 1px dashed #ccc;
+}
+
+
+/*Specific settings*/
+
+
+/*Header section*/
+
+.resume-header {
+    padding: 15px;
+}
+
+.resume-header-main {
+    text-align: left;
+    font-family: "Lato", Arial, Helvetica, sans-serif !important;
+    width: 80%;
+    min-height: 150px;
+    display: inline-block;
+    padding-right: 15px;
+}
+
+.resume-header-photo {
+    width: 15%;
+    padding-left: 15px;
+    display: inline-block;
+    vertical-align: top;
+    cursor: pointer;
+}
+
+.resume-header-photo .photo {
+    background-image: url("../images/profile_image.jpg");
+    float: right;
+    height: 150px;
+    width: 150px;
+    -webkit-transition: border-radius .5s;
+    border-radius: 50%;
+    transition: border-radius .5s;
+    background-size: cover;
+}
+
+.resume-header-main .title {
+    color: black;
+    font-size: 42px;
+    font-weight: bold !important;
+}
+
+.resume-header-main .sub-title {
+    font-size: 20px;
+}
+
+.resume-header-main-contact {
+    padding-bottom: 4px;
+    clear: both;
+    padding-top: 20px;
+    color: #333;
+    font-size: 12px;
+    font-weight: 700;
+    display: block;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+.resume-header-main-contact-entry {
+    line-height: 12px;
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    padding-bottom: 4px;
+    max-width: 260px;
+}
+
+.resume-header-main-contact-entry .value {
+    line-height: 20px;
+    font-size: 12px;
+}
+
+
+/*Resume Body*/
+
+.resume-body {
+    font-family: "Open Sans", Arial, Helvetica, sans-serif !important;
+    width: 100%;
+    line-height: normal;
+}
+
+.resume-body-section {
+    padding-bottom: 20px;
+    border-bottom: 3px #000;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+
+/*.resume-body-main-column {}*/
+
+.resume-body-section .title {
+    display: block;
+    margin: 0;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #000;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 28px;
+    line-height: 28px;
+    font-weight: 600;
+    font-family: "Lato", Arial, Helvetica, sans-serif !important;
+}
+
+.resume-body-section-exp-entry {
+    padding: 15px 15px 0 0;
+}
+
+.resume-body-section .role {
+    height: 25px;
+    font-size: 21px;
+    color: #000;
+}
+
+.resume-body-section .workplace {
+    height: 20px;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 3px;
+}
+
+.resume-body-section .period {
+    padding: 0px!important;
+}
+
+.period .value {
+    line-height: 20px;
+    font-size: 11px;
+}
+
+.resume-body-section .description {
+    font-size: 13px;
+    position: relative;
+    margin-top: 5px;
+    height: 90px;
 }
