@@ -98,6 +98,8 @@ page #svg .resume-wrapper {
     background-image: url("../images/profile_image.jpg");
     background-size: auto 173.2051px;
     background-position: center;
+    pointer-events: none;
+    cursor: default;
 }
 
 .hexTop,
