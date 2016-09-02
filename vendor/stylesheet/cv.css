@@ -246,14 +246,18 @@ page #svg .resume-wrapper {
     margin-top: 3px;
 }
 
-.resume-body-section .period {
+.resume-body-section .info {
     padding: 0px!important;
     margin-top: 5px;
 }
 
-.period .value {
+.resume-body-section .info .value {
     line-height: 20px;
     font-size: 11px;
+}
+
+.value a {
+    color: inherit;
 }
 
 .resume-body-section .description {
