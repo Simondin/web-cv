@@ -211,6 +211,9 @@ page #svg .resume-wrapper {
     border-bottom: 3px #000;
     font-family: "Open Sans", Arial, Helvetica, sans-serif;
     margin-bottom: 10px;
+    font-size: 13px;
+    position: relative;
+    margin-top: 5px;
 }
 
 
@@ -260,9 +263,7 @@ page #svg .resume-wrapper {
     color: inherit;
 }
 
-.resume-body-section .description {
-    font-size: 13px;
-    position: relative;
-    margin-top: 5px;
-    height: 90px;
+.resume-body-section .achievements {
+    font-family: "Open Sans", Arial, Helvetica, sans-serif!important;
+    font-size: 13px!important;
 }
