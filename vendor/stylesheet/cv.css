@@ -264,6 +264,12 @@ page #svg .resume-wrapper {
 }
 
 .resume-body-section .achievements {
-    font-family: "Open Sans", Arial, Helvetica, sans-serif!important;
-    font-size: 13px!important;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif !important;
+    font-size: 13px !important;
+}
+
+.resume-body-section .achievements ul {
+    padding-left: 5px;
+    /*list-style: none;*/
+    list-style-position: inside;
 }
