@@ -1,0 +1,27 @@
+{
+    "name": "web-cv",
+    "homepage": "https://github.com/Simondin/web-cv",
+    "authors": [
+        "Simone Di Marco <simonedimarco89@gmail.com>"
+    ],
+    "description": "Web CV",
+    "main": "index.html",
+    "keywords": [
+        "cv",
+        "polimer",
+        "web_components"
+    ],
+    "license": "MIT",
+    "private": true,
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "bootstrap": "^3.3.7",
+        "font-awesome": "fontawesome#^4.6.3"
+    }
+}
