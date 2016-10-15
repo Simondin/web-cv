@@ -1,0 +1,275 @@
+/*General settings*/
+
+body {
+    background: rgb(204, 204, 204);
+}
+
+page {
+    background: url("../images/default_background.jpg");
+    background-size: contain;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0.5cm;
+    box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+page[size="A4"] {
+    width: 21cm;
+    height: 29.7cm;
+}
+
+page #svg {
+    background: url("../images/default_background.svg"), no-repeat top left;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+page #svg .resume-wrapper {
+    position: relative;
+    padding: 30px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.main-color {
+    color: #008CFF !important;
+}
+
+.icon {
+    position: relative;
+    margin-right: 5px;
+    vertical-align: top;
+    float: left;
+    top: 2px;
+    font-weight: 400!important;
+}
+
+.item {
+    border-bottom: 1px dashed #ccc;
+}
+
+
+/*Specific settings*/
+
+
+/*Header section*/
+
+.resume-header {
+    padding: 15px;
+}
+
+.resume-header-main {
+    text-align: left;
+    font-family: "Lato", Arial, Helvetica, sans-serif !important;
+    width: 80%;
+    min-height: 150px;
+    display: inline-block;
+    padding-right: 15px;
+}
+
+.resume-header-photo {
+    width: 15%;
+    padding-left: 15px;
+    display: inline-block;
+    vertical-align: top;
+    cursor: pointer;
+}
+
+.resume-header-photo .photo {
+    background-image: url("../images/profile_image.jpg");
+    float: right;
+    height: 150px;
+    width: 150px;
+    -webkit-transition: border-radius .5s;
+    border-radius: 50%;
+    transition: border-radius .5s;
+    background-size: cover;
+}
+
+.hexagon {
+    position: relative;
+    width: 150px;
+    height: 86.60px;
+    float: right;
+    top: 45px;
+    background-image: url("../images/profile_image.jpg");
+    background-size: auto 173.2051px;
+    background-position: center;
+    pointer-events: none;
+    cursor: default;
+}
+
+.hexTop,
+.hexBottom {
+    position: absolute;
+    z-index: 1;
+    width: 106.07px;
+    height: 106.07px;
+    overflow: hidden;
+    -webkit-transform: scaleY(0.5774) rotate(-45deg);
+    -ms-transform: scaleY(0.5774) rotate(-45deg);
+    transform: scaleY(0.5774) rotate(-45deg);
+    background: inherit;
+    left: 21.97px;
+}
+
+
+/*counter transform the bg image on the caps*/
+
+.hexTop:after,
+.hexBottom:after {
+    content: "";
+    position: absolute;
+    width: 150.0000px;
+    height: 86.60254037844388px;
+    -webkit-transform: rotate(45deg) scaleY(1.7321) translateY(-43.3013px);
+    -ms-transform: rotate(45deg) scaleY(1.7321) translateY(-43.3013px);
+    transform: rotate(45deg) scaleY(1.7321) translateY(-43.3013px);
+    -webkit-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    transform-origin: 0 0;
+    background: inherit;
+}
+
+.hexTop {
+    top: -53.0330px;
+}
+
+.hexTop:after {
+    background-position: center top;
+}
+
+.hexBottom {
+    bottom: -53.0330px;
+}
+
+.hexBottom:after {
+    background-position: center bottom;
+}
+
+.hexagon:after {
+    content: "";
+    position: absolute;
+    top: 0.0000px;
+    left: 0;
+    width: 150.0000px;
+    height: 86.6025px;
+    z-index: 2;
+    background: inherit;
+}
+
+.resume-header-main .title {
+    color: black;
+    font-size: 42px;
+    font-weight: bold !important;
+}
+
+.resume-header-main .sub-title {
+    font-size: 20px;
+}
+
+.resume-header-main-contact {
+    padding-bottom: 4px;
+    clear: both;
+    padding-top: 20px;
+    color: #333;
+    font-size: 12px;
+    font-weight: 700;
+    display: block;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+.resume-header-main-contact-entry {
+    line-height: 12px;
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    padding-bottom: 4px;
+    max-width: 260px;
+}
+
+.resume-header-main-contact-entry .value {
+    line-height: 20px;
+    font-size: 12px;
+}
+
+
+/*Resume Body*/
+
+.resume-body {
+    font-family: "Open Sans", Arial, Helvetica, sans-serif !important;
+    width: 100%;
+    line-height: normal;
+}
+
+.resume-body-section {
+    padding-bottom: 20px;
+    border-bottom: 3px #000;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    font-size: 13px;
+    position: relative;
+    margin-top: 5px;
+}
+
+
+/*.resume-body-main-column {}*/
+
+.resume-body-section .title {
+    display: block;
+    margin: 0;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #000;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 28px;
+    line-height: 28px;
+    font-weight: 600;
+    font-family: "Lato", Arial, Helvetica, sans-serif !important;
+}
+
+.resume-body-section-exp-entry {
+    padding: 15px 15px 0 0;
+}
+
+.resume-body-section .role {
+    height: 25px;
+    font-size: 21px;
+    color: #000;
+}
+
+.resume-body-section .workplace {
+    height: 20px;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 3px;
+}
+
+.resume-body-section .info {
+    padding: 0px!important;
+    margin-top: 5px;
+}
+
+.resume-body-section .info .value {
+    line-height: 20px;
+    font-size: 11px;
+}
+
+.value a {
+    color: inherit;
+}
+
+.resume-body-section .additions {
+    font-family: "Open Sans", Arial, Helvetica, sans-serif !important;
+    font-size: 13px !important;
+}
+
+.resume-body-section .additions ul {
+    padding-left: 2px;
+    /*list-style: none;*/
+    list-style-position: inside;
+}

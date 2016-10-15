@@ -1,3 +1,14 @@
+###################################
+#               Mac               #
 .DS_Store
+###################################
+#             VS Code             #
 .vscode/
+jsconfig.json
+###################################
+#             Node Js             #
 node_modules/
+npm-debug.log
+###################################
+#         Bower Components        #
+source/app/vendor/components/
