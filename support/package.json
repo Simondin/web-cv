@@ -1,33 +1,35 @@
 {
-    "name": "web-cv",
-    "version": "0.0.1",
-    "description": "Web CV",
-    "private": true,
-    "author": "Simone Di Marco <simonedimarco89@gmail.com>",
-    "license": "MIT",
-    "dependencies": {},
-    "devDependencies": {
-        "grunt": "^1.0.0",
-        "grunt-asset-injector": "^0.1.0",
-        "grunt-bower-install": "^1.6.0",
-        "grunt-bower-install-simple": "^1.2.3",
-        "grunt-bowercopy": "^1.2.4",
-        "grunt-contrib-clean": "^1.0.0",
-        "grunt-contrib-copy": "^1.0.0"
-    },
-    "engines": {
-        "node": ">=0.8.0"
-    },
-    "main": "index.html",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/Simondin/web-cv.git"
-    },
-    "bugs": {
-        "url": "https://github.com/Simondin/web-cv/issues"
-    },
-    "homepage": "https://github.com/Simondin/web-cv#readme"
+  "name": "web-cv",
+  "version": "0.0.1",
+  "description": "Web CV",
+  "private": true,
+  "author": "Simone Di Marco <simonedimarco89@gmail.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^1.0.0",
+    "grunt-asset-injector": "^0.1.0",
+    "grunt-bower-install": "^1.6.0",
+    "grunt-bower-install-simple": "^1.2.3",
+    "grunt-bowercopy": "^1.2.4",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "gulp": "^3.9.1",
+    "gulp-style-modules": "^0.1.0"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Simondin/web-cv.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Simondin/web-cv/issues"
+  },
+  "homepage": "https://github.com/Simondin/web-cv#readme"
 }

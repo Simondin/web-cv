@@ -1,14 +1,19 @@
-###################################
-#               Mac               #
+#####################################
+#                Mac                #
 .DS_Store
-###################################
-#             VS Code             #
+#####################################
+#              VS Code              #
 .vscode/
 jsconfig.json
-###################################
-#             Node Js             #
+#####################################
+#              Node Js              #
 node_modules/
 npm-debug.log
-###################################
-#         Bower Components        #
+#####################################
+#          Bower Components         #
 source/app/vendor/components/
+#####################################
+#              Polymer              #
+polymer-elements/*/bower_components/
+polymer-elements/*/demo/
+polymer-elements/*/test/

@@ -1,0 +1,103 @@
+<link rel="import" href="./bower_components/polymer/polymer.html">
+
+<!--
+`cv-header`
+Cv header
+
+@demo demo/index.html 
+-->
+
+<dom-module id="cv-header">
+    <template>
+		<style>
+      <link rel="stylesheet" href="../../vendor/components/bootstrap/bootstrap.min.css"">
+			:host {
+				display: block;
+				text-align: left;
+				font-family: "Lato", Arial, Helvetica, sans-serif !important;
+				width: 80%;
+				min-height: 150px;
+				display: inline-block;
+				padding-right: 15px;
+			}
+			
+			.title {
+				color: black;
+				font-size: 42px;
+				font-weight: bold !important;
+			}
+			
+			.sub-title {
+				font-size: 20px;
+			}
+			
+			.resume-header-main-contact {
+				padding-bottom: 4px;
+				clear: both;
+				padding-top: 20px;
+				color: #333;
+				font-size: 12px;
+				font-weight: 700;
+				display: block;
+				font-family: "Open Sans", Arial, Helvetica, sans-serif;
+			}
+			
+			.resume-header-main-contact-entry {
+				line-height: 12px;
+				font-size: 16px;
+				display: inline-block;
+				vertical-align: top;
+				width: 50%;
+				padding-bottom: 4px;
+				max-width: 260px;
+			}
+			
+			.resume-header-main-contact-entry .value {
+				line-height: 20px;
+				font-size: 12px;
+			}
+      
+		</style>
+		<div class="title">Simone Di Marco</div>
+		<div class="sub-title main-color">Software Engineer R&D at Cyber Dyne srl</div>
+		<div class="resume-header-main-contact">
+			<div class="resume-header-main-contact-entry">
+				<span class="icon main-color fa fa-phone"> </span>
+				<div class="value">+39-3317043692</div>
+			</div>
+			<div class="resume-header-main-contact-entry">
+				<span class="icon main-color fa fa-at"> </span>
+				<div class="value">simonedimarco89@gmail.com</div>
+			</div>
+			<div class="resume-header-main-contact-entry">
+				<span class="icon main-color fa fa-linkedin-square"></span>
+				<div class="value">
+					<a href="linkedin.com/in/simondin">linkedin.com/in/simondin</a>
+				</div>
+			</div>
+			<div class="resume-header-main-contact-entry">
+				<span class="icon main-color fa fa-map-marker"></span>
+				<div class="value">Pescara, Italy</div>
+			</div>
+			<div class="resume-header-main-contact-entry">
+				<span class="icon main-color fa fa-birthday-cake"></span>
+				<div class="value">31th Jenuary 1989 </div>
+			</div>
+		</div>
+	</template>
+
+    <script>
+        Polymer({
+
+            is: 'cv-header',
+
+            properties: {
+                prop1: {
+                    type: String,
+                    value: 'cv-header',
+                },
+            },
+
+        });
+    </script>
+</dom-module>
